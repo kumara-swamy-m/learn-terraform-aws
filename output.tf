@@ -13,3 +13,12 @@ output "Private_ip" {
   value       = aws_instance.app_server.private_ip
 }
 
+
+output "Bucket_id" {
+  value       =  aws_s3_bucket.tf_state_bucket.id
+}
+
+output "dynamo_id" {
+  value       = aws_dynamodb_table.tf_lock_table.id
+}
+   
