@@ -28,6 +28,7 @@ Basic understanding of Terraform workflow
 Use the following command to clone the project:
 
 git clone   https://github.com/kumara-swamy-m/learn-terraform-aws.git
+
 cd learn-terraform-aws
 
 🚀 How to Deploy
